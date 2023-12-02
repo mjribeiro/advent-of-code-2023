@@ -10,7 +10,6 @@ print(sum(calibration_vals))
 
 # Part 2: What is the sum of all the calibration values, bearing in mind digits can also be spelled out?
 digits = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine"}
-max_digit_len = max([len(value) for value in digits.values()])
 
 # Replace all spelled out digits with their numeric counterparts
 new_lines = []
